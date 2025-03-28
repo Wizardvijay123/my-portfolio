@@ -6,18 +6,18 @@ const Skills = () => {
     {
       title: "Frontend Development",
       icon: <Layout className="w-8 h-8 text-indigo-600" />,
-      skills: ["React", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "SASS"]
+      skills: ["React", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "SASS", "Reactjs"]
     },
     {
-      title: "Backend Development",
+      title: "Backend Development-Basics",
       icon: <Server className="w-8 h-8 text-indigo-600" />,
       skills: ["Python", "Django", "PHP", "Java", ]
     },
-    // {
-    //   title: "Database",
-    //   icon: <Database className="w-8 h-8 text-indigo-600" />,
-    //   skills: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Firebase", "Supabase", "GraphQL"]
-    // },
+    {
+      title: "Database",
+      icon: <Database className="w-8 h-8 text-indigo-600" />,
+      skills: ["MongoDB", "MySQL",]
+    },
     {
       title: "Mobile Development",
       icon: <Smartphone className="w-8 h-8 text-indigo-600" />,

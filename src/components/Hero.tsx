@@ -46,17 +46,17 @@ const Hero = () => {
           {/* Image Section */}
           <div className="md:w-1/2">
             <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto">
-              <div className="rounded-full overflow-hidden border-4 border-white shadow-xl">
+              <div className="rounded-[180px] overflow-hidden border-4 border-white shadow-xl">
                 <img src={dp} alt="Vijay" className="w-full h-full object-cover"/>
               </div>
-              <div className="absolute -bottom-4 -right-4 bg-white rounded-full p-3 shadow-lg">
+              {/* <div className="absolute -bottom-4 -right-4 bg-white rounded-full p-3 shadow-lg">
                 <div className="bg-indigo-600 text-white rounded-full w-16 h-16 flex items-center justify-center">
                   <span className="font-bold">1+</span>
                 </div>
                 <span className="absolute -bottom-6 right-0 text-sm font-medium text-gray-700 whitespace-nowrap">
                   Years Experience
                 </span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
