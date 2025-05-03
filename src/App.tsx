@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -7,7 +7,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import 'antd/dist/reset.css'; // Or 'antd/dist/antd.css' for older versions
-import Tstable from './components/table';
+// import Tstable from './components/table';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <About/>
         <Skills/>
         <Projects/>
-        <Tstable/>
+        {/* <Tstable/> */}
         <Contact/>
       </main>
       <Footer/>
