@@ -6,7 +6,7 @@ const Skills = () => {
     {
       title: "Frontend Development",
       icon: <Layout className="w-8 h-8 text-indigo-600" />,
-      skills: ["React", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "SASS", "Reactjs"]
+      skills: ["HTML5", "CSS3", "SASS", "JavaScript", "React js", "Typescript"]
     },
     {
       title: "Backend Development-Basics",
@@ -21,18 +21,18 @@ const Skills = () => {
     {
       title: "Mobile Development",
       icon: <Smartphone className="w-8 h-8 text-indigo-600" />,
-      skills: [ "Flutter",]
+      skills: [ "Flutter", "Dart"]
     },
     // {
     //   title: "UI/UX Design",
     //   icon: <Figma className="w-8 h-8 text-indigo-600" />,
     //   skills: ["Figma", "Adobe XD", "Sketch", "Photoshop", "Illustrator", "Wireframing", "Prototyping"]
     // },
-    // {
-    //   title: "Other Skills",
-    //   icon: <Code className="w-8 h-8 text-indigo-600" />,
-    //   skills: ["Git", "Docker", "AWS", "CI/CD", "Jest", "Cypress", "RESTful APIs", "Agile/Scrum"]
-    // }
+    {
+      title: "Other Skills",
+      icon: <Code className="w-8 h-8 text-indigo-600" />,
+      skills: ["Git", "Linux", "Basic Trouble Shooting"]
+    }
   ];
 
   return (
