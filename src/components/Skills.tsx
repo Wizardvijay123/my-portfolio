@@ -11,7 +11,7 @@ const Skills = () => {
     {
       title: "Backend Development-Basics",
       icon: <Server className="w-8 h-8 text-indigo-600" />,
-      skills: ["Python", "Django", "PHP", "Java", ]
+      skills: ["Python", "Django", "Springboot", "Java", ]
     },
     {
       title: "Database",
@@ -23,16 +23,17 @@ const Skills = () => {
       icon: <Smartphone className="w-8 h-8 text-indigo-600" />,
       skills: [ "Flutter", "Dart"]
     },
-    // {
-    //   title: "UI/UX Design",
-    //   icon: <Figma className="w-8 h-8 text-indigo-600" />,
-    //   skills: ["Figma", "Adobe XD", "Sketch", "Photoshop", "Illustrator", "Wireframing", "Prototyping"]
-    // },
     {
       title: "Other Skills",
       icon: <Code className="w-8 h-8 text-indigo-600" />,
       skills: ["Git", "Linux", "Basic Trouble Shooting"]
     }
+    // {
+    //   title: "UI/UX Design",
+    //   icon: <Figma className="w-8 h-8 text-indigo-600" />,
+    //   skills: ["Figma", "Adobe XD", "Sketch", "Photoshop", "Illustrator", "Wireframing", "Prototyping"]
+    // },
+
   ];
 
   return (
