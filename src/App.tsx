@@ -14,14 +14,14 @@ function App() {
     <div className="min-h-screen bg-gray-50 text-gray-800">
       <Header />
       <main>
-        <Hero/>
-        <About/>
-        <Skills/>
-        <Projects/>
-        {/* <Tstable/> */}
-        <Contact/>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        {/* <Tstable /> */}
+        <Contact />
       </main>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
